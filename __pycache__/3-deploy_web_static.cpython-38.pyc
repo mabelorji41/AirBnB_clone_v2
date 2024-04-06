@@ -1,0 +1,22 @@
+U^M^M
+^@^@^@^@/Ë^Nf¤
+^@^@ã^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^B^@^@^@@^@^@^@sn^@^@^@d^@Z^@d^Ad^Bl^AZ^Bd^Ad^Cl^Cm^CZ^C^A^@d^Ad^Dl^Dm^EZ^E^A^@d^Ad^El^Dm^FZ^F^A^@d^Ad^Fl^Dm^GZ^G^A^@d^Ad^Gl^Dm^HZ^H^A^@d^Hd       g^Be^E_ d
+d^K<84>^@Z
+d^Ld^M<84>^@Z^Kd^Nd^O<84>^@Z^Ld^BS^@)^Pz<88>
+Fabfile to create and distribute an archive to a web server.
+
+execute: fab -f 3-deploy_web_static.py deploy -i ~/.ssh/id_rsa -u ubuntu
+é^@^@^@^@N)^AÚ^Hdatetime)^AÚ^Cenv)^AÚ^Elocal)^AÚ^Cput)^AÚ^Crunz^M107.23.105.60z^L52.3.220.140c^@^@^@^@^@^@^@^@^@^@^@^@^B^@^@^@^H^@^@^@C^@^@^@sf^@^@^@t^@ ^A¡^@}^@d^A ^B|^@j^C|^@j^D|^@j^E|^@j^F|^@j^G|^@j^H¡^F}^At      j
+ ^Kd^B¡^Ad^Ck^HrJt^Ld^D<83>^Aj^Md^Ek^HrJd^FS^@t^Ld^G ^B|^A¡^A<83>^Aj^Md^Ek^Hrbd^FS^@|^AS^@)^Hz9Create a tar gzipped archive of the directory web_static.z$versions/web_static_{}{}{}{}{}{}.tgzÚ^HversionsFz^Qmkdir -p versionsTNz^Wtar -cvzf {} web_static)^Nr^B^@^@^@Ú^FutcnowÚ^FformatÚ^DyearÚ^EmonthÚ^CdayÚ^DhourÚ^FminuteÚ^FsecondÚ^BosÚ^DpathÚ^Eisdirr^D^@^@^@Ú^Ffailed)^BÚ^BdtÚ^Dfile©^@r^V^@^@^@ú'/AirBnB_clone_v2/3-deploy_web_static.pyÚ^Gdo_pack^P^@^@^@s^\^@^@^@^@^B^H^A^H^A^D^A^D^A^D^A^D^A^Dû^D^F^P^A^N^A^D^A^T^A^D^Ar^X^@^@^@c^A^@^@^@^@^@^@^@^@^@^@^@^C^@^@^@^E^@^@^@C^@^@^@s^N^A^@^@t^@j^A ^B|^@¡^Ad^Ak^Hr^Td^AS^@|^@ ^Cd^B¡^Ad^C^Y^@}^A|^A ^Cd^D¡^Ad^E^Y^@}^Bt^D|^@d^F ^E|^A¡^A<83>^Bj^Fd^Gk^HrJd^AS^@t^Gd^H ^E|^B¡^A<83>^Aj^Fd^Gk^Hrbd^AS^@t^Gd        ^E|^B¡^A<83>^Aj^Fd^Gk^Hrzd^AS^@t^Gd
+ ^E|^A|^B¡^B<83>^Aj^Fd^Gk^Hr<94>d^AS^@t^Gd^K ^E|^A¡^A<83>^Aj^Fd^Gk^Hr¬d^AS^@t^Gd^L ^E|^B|^B¡^B<83>^Aj^Fd^Gk^HrÆd^AS^@t^Gd^M ^E|^B¡^A<83>^Aj^Fd^Gk^HrÞd^AS^@t^Gd^N<83>^Aj^Fd^Gk^Hrðd^AS^@t^Gd^O ^E|^B¡^A<83>^Aj^Fd^Gk^H<90>^Ar
+d^AS^@d^GS^@)^PzïDistributes an archive to a web server.
+
+    Args:
+        archive_path (str): The path of the archive to distribute.
+    Returns:
+        If the file doesn't exist at archive_path or an error occurs - False.
+        Otherwise - True.
+    Fú^A/éÿÿÿÿÚ^A.r^A^@^@^@z^G/tmp/{}Tz$rm -rf /data/web_static/releases/{}/z&mkdir -p /data/web_static/releases/{}/z1tar -xzf /tmp/{} -C /data/web_static/releases/{}/z
+rm /tmp/{}zJmv /data/web_static/releases/{}/web_static/* /data/web_static/releases/{}/z.rm -rf /data/web_static/releases/{}/web_staticz^_rm -rf /data/web_static/currentz<ln -s /data/web_static/releases/{}/ /data/web_static/current)^Hr^P^@^@^@r^Q^@^@^@Ú^FisfileÚ^Esplitr^E^@^@^@r  ^@^@^@r^S^@^@^@r^F^@^@^@)^CZ^Larchive_pathr^U^@^@^@Ú^Dnamer^V^@^@^@r^V^@^@^@r^W^@^@^@Ú  do_deploy!^@^@^@sb^@^@^@^@      ^P^A^D^A^N^A^N^B^V^A^D^A^F^A^Bÿ^F^A^Bÿ^D^B^D^A^F^A^Bÿ^F^A^Bÿ^D^B^D^A^F^A^B^@^Bÿ^F^A^Bÿ^D^B^D^A^T^A^D^A^F^A^B^@^Bÿ^F^A^Bÿ^D^B^D^A^F^A^Bÿ^F^A^Bÿ^D^B^D^A^N^A^D^A^F^A^Bÿ^F^A^Bÿ^F^B^D^Ar^_^@^@^@c^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^B^@^@^@C^@^@^@s^Z^@^@^@t^@<83>^@}^@|^@d^Ak^Hr^Rd^BS^@t^A|^@<83>^AS^@)^Cz1Create and distribute an archive to a web server.NF)^Br^X^@^@^@r^_^@^@^@)^Ar^U^@^@^@r^V^@^@^@r^V^@^@^@r^W^@^@^@Ú^FdeployJ^@^@^@s^H^@^@^@^@^B^F^A^H^A^D^Ar ^@^@^@)^MÚ^G__doc__Ú^Gos.pathr^P^@^@^@r^B^@^@^@Ú
+fabric.apir^C^@^@^@r^D^@^@^@r^E^@^@^@r^F^@^@^@Ú^Ehostsr^X^@^@^@r^_^@^@^@r ^@^@^@r^V^@^@^@r^V^@^@^@r^V^@^@^@r^W^@^@^@Ú^H<module>^B^@^@^@s^T^@^@^@^D^E^H^A^L^A^L^A^L^A^L^A^L^A
+^C^H^Q^H)
